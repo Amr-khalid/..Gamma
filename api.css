@@ -1,0 +1,91 @@
+body{direction: rtl; background-color: var(--background-color);}
+*{color: var(--color); }
+table{text-align: center; font-size: 20px; font-weight: bold; font-family: fantasy;width: 100%;}
+.u{display: flex; flex-direction: column; gap: 10px; text-align: center; height: 90%;}
+td{text-align: center;color:var(--color); font-weight: 300; display: flex; justify-content: space-between; }
+.pre{background:linear-gradient(345deg, #9800ff, #39aab4); width: 120px; height: 40px; border-radius: 40px; transition: 2s; }
+.pre p{text-align: center;  color: aliceblue;  font-weight: 800; padding: 0; margin: 2px;}
+.pe{font-weight: 700; font-size: 25px;}
+.pre:hover{background:linear-gradient(345deg, #ff0000, #ff9933);}
+#date{display: flex; justify-content: space-between; width: 100%; }
+.bb{display: flex; width: 100%; justify-content: center;}
+.bb button{letter-spacing: 3px;
+    width: 95%;
+    background: linear-gradient(0deg, #4d0f6f, #4264c6);
+    color: #ffffff72;
+    height: 60px;
+    font-size: 40px;
+    box-shadow: 2px 2px 2px rgb(0, 0, 0);
+    border-radius: 20px;
+    font-family: none;
+} 
+.to{font-family: "Reem Kufi Fun", sans-serif; }
+#con{height: 70vh; display: one;}
+    #display:hover{background:linear-gradient(345deg, #9800ff, #39aab4);cursor: pointer; transform: scale(1.1);}
+    #ts{ display: flex; flex-wrap: wrap;}
+    #ts p{
+     
+        margin: 3px;
+        padding: 10px;
+        background: rgb(0 0 0 / 0%);
+        box-shadow: 2px 6px 6px 3px rgb(0 0 0);
+        font-size: 20px; transition: 2s; }
+    #display{ color: var(--color);}
+    #ts p:hover{background:linear-gradient(345deg, #c507a8, #000000);cursor: pointer; transform: scale(1.1); color: aliceblue; text-align: center;}
+    #lo{ width: 60px; animation: y infinite 6s; filter: invert(1);}
+
+@keyframes y{
+    0%{transform: rotate(0deg);}
+    100%{transform: rotate(360deg);}
+}
+#ts{display: none;}
+:root{
+    --color2: #000000;
+    --color:  #000000;
+    --background-color: rgb(255, 255, 255);
+}
+td{box-shadow: 2px 6px 8px var(--color);
+    background-color: #564d4d00;
+    border-radius: 4px; transition: 1s;}
+#bas{color:var(--color2);}    
+td:hover{ box-shadow: inset 2px 2px 2px var(--color2); }
+.kk{flex-direction: column; justify-content: center;
+     align-items: center; background:linear-gradient(299deg,rgb(0, 0, 0),rgb(136, 9, 100)) 
+     ;width: 180px; margin: auto; border-radius:77px 76px 106px 106px; height: 200px;border: 6px rgb(255, 255, 255) double;
+    display: none; }
+
+#display{width: 140px;height: 30px; background-color: #0000006c; border-radius: 10%; text-align: center; color: aliceblue; display: flex;    
+    justify-content: center; align-items: center; font-size: 40px; transition: 1s;letter-spacing: 3px;
+    border: #ffffff 2px double;
+
+}
+#bn{width: 35px; height: 35px; border-radius: 50%; background-color:rgb(0, 0, 0); box-shadow: #000000 2px 2px 2px;}
+.bn5{display: flex; justify-content: space-evenly; gap: 7px; } 
+#bn3{width: 25px; height: 25px; border-radius: 50%; background-color: rgb(255, 255, 255);box-shadow: #000000 4px 2px 8px 3px}
+#bn2{width: 17px; height: 17px; border-radius: 50%;background-color: #ff0000;box-shadow: #000000 4px 2px 8px 3px}
+@media only screen and (max-width:800px){
+    .pre {
+        background: linear-gradient(345deg, #9800ff, #39aab4);
+        width: 120px;
+        height: 50px;
+        border-radius: 40px;
+        transition: 2s;
+    }
+    .kk{
+        transform: translate(5px, 151px);
+    width: 280px;
+    margin: auto;
+    border-radius: 38% 37% 65% 65%;
+    height: 300px}
+    #display {
+        width: 240px;
+        height: 40px;}
+        .bn5{display: flex; justify-content: space-evenly; gap: 34px; align-items: flex-end; } 
+
+        #bn{width: 50px; height: 50px; border-radius: 50%; background-color:rgb(0, 0, 0); box-shadow: #000000 2px 2px 2px;}
+#bn3{width: 35px; height: 35px; border-radius: 50%; background-color: rgb(255, 255, 255);box-shadow: #000000 4px 2px 8px 3px}
+#bn2{width: 27px; height: 27px; border-radius: 50%;background-color: #ff0000;box-shadow: #000000 4px 2px 8px 3px}
+
+}
+    
+
